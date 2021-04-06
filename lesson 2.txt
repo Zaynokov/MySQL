@@ -1,0 +1,7 @@
+﻿1.	CREATE DATABASE example; - Создать базу данных с именем "example"
+	USE example - Выбрать базу данных "example"
+	CREATE TABLE users (id INT, name VARCHAR(255)); -Создать таблицу из двух столбцов id и name
+
+2.	mysqldump example > sample.sql - Создание дампа
+	CREATE DATABASE sample; - Создание пустой базы данных sample
+	mysql sample < sample.sql - Развертывание дампа
